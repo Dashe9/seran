@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100" style="background-color: #25de4d; overflow: hidden;">
+
+    <div class="position-fixed w-100 h-100 d-flex justify-content-center align-items-center" style="z-index: -1;">
+        <div class="bg-warning rounded-circle position-absolute" style="width: 300px; height: 300px; top: 20%; left: 20%; opacity: 0.7; filter: blur(10px);"></div>
+        <div class="bg-warning rounded-circle position-absolute" style="width: 400px; height: 400px; top: 50%; left: 60%; opacity: 0.7; filter: blur(10px);"></div>
+        <div class="bg-warning rounded-circle position-absolute" style="width: 200px; height: 200px; top: 80%; left: 30%; opacity: 0.7; filter: blur(10px);"></div>
+        <div class="bg-warning rounded-circle position-absolute" style="width: 150px; height: 150px; top: 10%; left: 70%; opacity: 0.7; filter: blur(10px);"></div>
+    </div>
+
+    <div class="card text-center shadow-lg p-4 rounded  text-dark bg-opacity-10" style=" background-color: rgba(125, 120, 120, 0.7); backdrop-filter: blur(10px);">
+        <div class="card-body">
+            <h3 class="card-title text-white">Login</h3>
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control bg-white text-dark border-0" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control bg-white text-dark border-0" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block text-white">Login</button>
+                <a href="#" class="d-block mt-2 text-white-50" style="font-size: 0.8rem;">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
